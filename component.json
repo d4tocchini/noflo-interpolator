@@ -1,0 +1,27 @@
+{
+  "name": "noflo-interpolator",
+  "description": "Arbitrary value interpolation on yo graph",
+  "author": "Dan Tocchini <d4@rituwall.com>",
+  "repo": "D4/noflo-interpolator",
+  "version": "0.1.0",
+  "keywords": [
+  ],
+  "dependencies": {
+    "bergie/noflo": "*",
+    "bergie/noflo-dom": "*"
+  },
+  "scripts": [
+    "lib/penner.coffee",
+    "lib/bound.coffee",
+    "components/Ease.coffee",
+    "index.js"
+  ],
+  "json": [
+    "component.json"
+  ],
+  "noflo": {
+    "components": {
+      "Ease": "components/Ease.coffee"
+    }
+  }
+}
