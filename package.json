@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/D4/noflo-interpolator.git"
+    "url": "git://github.com/d4tocchini/noflo-interpolator.git"
   },
   "licenses": [
     {
@@ -33,6 +33,11 @@
     "component-json": "git://github.com/CamShaft/component-json.git",
     "grunt-combine": "~0.8.3",
     "grunt-component": "~0.1.2"
+  },
+  "noflo": {
+    "components": {
+      "Ease": "./components/Ease.coffee"
+    }
   },
   "keywords": [],
   "scripts": {
