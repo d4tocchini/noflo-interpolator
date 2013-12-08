@@ -8,11 +8,10 @@
   ],
   "dependencies": {
     "bergie/noflo": "*",
-    "bergie/noflo-dom": "*"
+    "bergie/noflo-dom": "*",
+    "d4tocchini/interpolator": "*"
   },
   "scripts": [
-    "lib/penner.coffee",
-    "lib/bound.coffee",
     "components/Ease.coffee",
     "index.js"
   ],

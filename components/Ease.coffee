@@ -1,6 +1,10 @@
 noflo = require 'noflo'
-e = require '../lib/penner'
-b = require '../lib/bound'
+if typeof process is 'object' and process.title is 'node'
+  interpolator = require 'polator'
+else
+  interpolator = require 'interpolator'
+e = interpolator.penner
+b = interpolator.bound
 
 class Ease extends noflo.Component
   
